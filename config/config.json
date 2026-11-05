@@ -1,0 +1,14 @@
+{
+  "workers": 12,
+  "crypto": {
+    "spot_intervals_all": ["1d", "1h"],
+    "spot_intervals_top": {
+      "15m": {"top_n": 30, "since": "2023-01-01"},
+      "5m": {"top_n": 10, "since": "2024-06-01"},
+      "1m": {"top_n": 5, "since": "2025-06-01"}
+    },
+    "include_delisted": true,
+    "perp_top_n": 400,
+    "coingecko_key": ""
+  }
+}

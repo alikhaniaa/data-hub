@@ -1,0 +1,28 @@
+# Collected data and run output
+/data/
+/logs/
+*.parquet
+docs/DATA_CATALOG.md
+
+# Local configuration with keys (keep config/config.json key-free)
+.env
+config/*.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# PyInstaller
+/TradingDataHub/
+/build_out/
+/build_tmp/
+*.spec
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
